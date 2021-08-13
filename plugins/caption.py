@@ -6,10 +6,8 @@ from pyrogram.errors import FloodWait
 
 @Client.on_message(filters.document & filters.channel)
 async def caption(client, message: Message):
-    await message.edit("Manga Channel: @MangaSee.",
-          reply_markup=InlineKeyboardMarkup(
-            [
-                [InlineKeyboardButton("Group", url="https://t.me/Anime_Chat_English")]
-            ]
-                                           )
-                      )
+    await message.edit("✨] Quality: 720p
+✨] Audio: Japanese
+✨] Subtitles: English
+✨] By: @Anime_Wars")
+         

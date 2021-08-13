@@ -6,8 +6,5 @@ from pyrogram.errors import FloodWait
 
 @Client.on_message(filters.document & filters.channel)
 async def caption(client, message: Message):
-    await message.edit("✨] Quality: 720p
-✨] Audio: Japanese
-✨] Subtitles: English
-✨] By: @Anime_Wars")
+    await message.edit("✨ Join @Anime_Wars For More Animes ✨")
          
